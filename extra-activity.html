@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extra Activity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Extra Activities</h1>
+    <h2>Welcome, <span id="username">Student</span></h2>
+    <form id="extraActivityForm">
+        <label for="activity">Activity:</label>
+        <input type="text" id="activity" name="activity" required><br><br>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required><br><br>
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required><br><br>
+        <button type="button" onclick="submitActivity()">Submit</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
